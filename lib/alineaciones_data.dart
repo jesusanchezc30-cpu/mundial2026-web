@@ -1,0 +1,58 @@
+// alineaciones_data.dart
+// Mapea nombre de selección (inglés, como está en BD) con su archivo de imagen
+
+const Map<String, String> kAlineaciones = {
+  'Algeria':           'assets/alineaciones/argelia.jpg',
+  'Argentina':         'assets/alineaciones/argentina.jpg',
+  'Australia':         'assets/alineaciones/australia.jpg',
+  'Austria':           'assets/alineaciones/austria.jpg',
+  'Belgium':           'assets/alineaciones/belgica.jpg',
+  'Bosnia Herzegovina':'assets/alineaciones/bosnia.jpg',
+  'Brazil':            'assets/alineaciones/brasil.jpg',
+  'Canada':            'assets/alineaciones/canada.jpg',
+  'Cape Verde':        'assets/alineaciones/caboverde.jpg',
+  'Colombia':          'assets/alineaciones/colombia.jpg',
+  'Croatia':           'assets/alineaciones/croacia.jpg',
+  'Curacao':           'assets/alineaciones/curazao.jpg',
+  'Czechia':           'assets/alineaciones/chequia.jpg',
+  'DR Congo':          'assets/alineaciones/congo.jpg',
+  'Ecuador':           'assets/alineaciones/ecuador.jpg',
+  'Egypt':             'assets/alineaciones/egipto.jpg',
+  'England':           'assets/alineaciones/inglaterra.jpg',
+  'France':            'assets/alineaciones/francia.jpg',
+  'Germany':           'assets/alineaciones/alemania.jpg',
+  'Ghana':             'assets/alineaciones/ghana.jpg',
+  'Haiti':             'assets/alineaciones/haiti.jpg',
+  'Iran':              'assets/alineaciones/iran.jpg',
+  'Iraq':              'assets/alineaciones/irak.jpg',
+  'Ivory Coast':       'assets/alineaciones/costademarfil.jpg',
+  'Japan':             'assets/alineaciones/japon.jpg',
+  'Jordan':            'assets/alineaciones/jordania.jpg',
+  'Mexico':            'assets/alineaciones/mexico.jpg',
+  'Morocco':           'assets/alineaciones/marruecos.jpg',
+  'Netherlands':       'assets/alineaciones/holanda.jpg',
+  'New Zealand':       'assets/alineaciones/nuevazelanda.jpg',
+  'Norway':            'assets/alineaciones/noruega.jpg',
+  'Panama':            'assets/alineaciones/panama.jpg',
+  'Paraguay':          'assets/alineaciones/paraguay.jpg',
+  'Portugal':          'assets/alineaciones/portugal.jpg',
+  'Qatar':             'assets/alineaciones/qatar.jpg',
+  'Saudi Arabia':      'assets/alineaciones/arabia.jpg',
+  'Scotland':          'assets/alineaciones/escocia.jpg',
+  'Senegal':           'assets/alineaciones/senegal.jpg',
+  'South Africa':      'assets/alineaciones/sudafrica.jpg',
+  'South Korea':       'assets/alineaciones/corea.jpg',
+  'Spain':             'assets/alineaciones/espana.jpg',
+  'Sweden':            'assets/alineaciones/suecia.jpg',
+  'Switzerland':       'assets/alineaciones/suiza.jpg',
+  'Tunisia':           'assets/alineaciones/tunez.jpg',
+  'Turkey':            'assets/alineaciones/turquia.jpg',
+  'Uruguay':           'assets/alineaciones/uruguay.jpg',
+  'USA':               'assets/alineaciones/eeuu.jpg',
+  'Uzbekistan':        'assets/alineaciones/uzbekistan.jpg',
+};
+
+String? getAlineacion(String? nombreBD) {
+  if (nombreBD == null) return null;
+  return kAlineaciones[nombreBD];
+}
