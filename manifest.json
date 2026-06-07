@@ -1,11 +1,11 @@
 {
-    "name": "mundial2026",
-    "short_name": "mundial2026",
-    "start_url": ".",
+    "name": "Guía Mundial 2026",
+    "short_name": "Mundial 2026",
+    "start_url": "/mundial2026-web/",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#00205B",
+    "theme_color": "#00205B",
+    "description": "Guía oficial del Mundial de Fútbol 2026",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
